@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Responsive Work Form</title>
+    <link rel="stylesheet" href="respon.css">
+</head>
+<body>
+    <section class="work">
+        <div class="container work-section">
+            <div class="work-img">
+                <img src="https://images.unsplash.com/file-1715652217532-464736461acbimage?dpr=2&w=416&auto=format&fit=crop&q=60" alt="">
+            </div>
+
+            <div class="work-form">
+                <form>
+                    <h1>Book A Consultant</h1>
+
+                    <!-- Name -->
+                    <input type="text" name="your_name" placeholder="Name">
+
+                    <!-- Email -->
+                    <input type="email" name="your_email" placeholder="Email">
+
+                    <!-- Phone Number -->
+                    <input type="number" name="phone_number" placeholder="Phone">
+
+                    <!-- DOB -->
+                    <input type="date" name="dob">
+
+                    <!-- Comment -->
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+
+                    <!-- Gender -->
+                    <div class="gender-group">
+                        <label for="gender" class="gender-label">Gender : </label>
+                        <div class="gender">
+                            <label for="gender">Male</label>
+                            <input type="radio" name="gender" value="male">
+                            <label for="gender">Female</label>
+                            <input type="radio" name="gender" value="female">
+                        </div>
+                    </div>
+
+                    <!-- Religion -->
+                    <div class="religion-group">
+                        <label for="religion" class="religion-label">Religion : </label>
+                        <div class="religion">
+                            <label for="religion">Islam</label>
+                            <input type="checkbox" name="religion" value="islam">
+                            <label for="religion">Hindu</label>
+                            <input type="checkbox" name="religion" value="hindu">
+                            <label for="religion">Buddhist</label>
+                            <input type="checkbox" name="religion" value="buddhist">
+                            <label for="religion">Christian</label>
+                            <input type="checkbox" name="religion" value="christian">
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <input type="submit" value="Submit" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

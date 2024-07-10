@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    --fraunces-font: "Fraunces", serif;
+    --montserrat-font: "Montserrat", sans-serif;
+
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3eae3;
+}
+
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.perfume-img img{
+    border-radius: 10px 10px 0 0;
+}
+.perfume-detail{
+    background-color: white;
+    width: 342px;
+    padding: 3rem 0;
+    border-radius: 0 0 10px 10px;
+}
+.para-1{
+    font-size: 2rem;
+    font-family: var(--montserrat-font);
+    color: #797d86;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+.head-2{
+    font-size: 3.5rem;
+    font-family: var(--fraunces-font);
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+.para-2{
+    font-size: 1.46rem;
+    padding: 0 2rem;
+    font-family: var(--montserrat-font);
+    color: #acacb7;
+    margin-bottom: 2rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.heading-2{
+    font-size: 3.7rem;
+    font-family: var(--fraunces-font);
+    color: #36725d;
+}
+.para-3{
+    font-size: 1.7rem;
+    font-family: var(--montserrat-font);
+    color: #989aa4;
+}
+.btn-cart{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: var(--montserrat-font);
+    margin: 0 2rem;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #3d8168;
+    border-radius: 10px;
+}
+
+
+@media(min-width:550px){
+    .perfume-sec{
+        display: flex;
+    }
+    .perfume-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .perfume-img img{
+        border-radius: 10px 0 0 10px;
+    }
+    .perfume-detail{
+        border-radius: 0 10px 10px 0;
+    }
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Bona Nova SC", serif;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.work-img img{
+    border-radius: 10px;
+}
+.work-form h1{
+    text-align: center;
+    font-size: 60px;
+    color:brown;
+    margin-top: 20px;
+}
+.work-form form{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(204, 201, 197);
+}
+.work-form input{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.work-form textarea{
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.gender-group{
+    margin-top: 30px;
+}
+.gender-label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.gender{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.gender input{
+    width: 30px;
+    height: 20px;
+    margin-top: 4px;
+}
+.religion-group{
+    margin-top: 30px;
+}
+.religion-label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.religion{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.religion input{
+    width: 30px;
+    height: 20px;
+    margin-top: 4px;
+}
+input.btn-submit{
+    margin-bottom: 30px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+}
+
+
+@media(min-width: 600px){
+    .work-section{
+        display: flex;
+    }
+    .work-img img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+    }
+    .work-form form{
+        border-radius: 0 10px 10px 0;
+    }
+}

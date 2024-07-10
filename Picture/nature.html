@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="lake.jpg" alt="lake" width="300px">
+
+    <h1>LAKE</h1>
+
+    <h2><ins>More About Lake</ins></h2>
+    <p>
+        Lorem ipsum dolor <strong>sit amet consectetur</strong>, adipisicing elit. 
+        Aliquam nam magni, <mark>eius provident fugiat</mark> aspernatur molestiae 
+        natus ab sunt cum <ins>temporibus at perspiciatis</ins> tempora numquam est 
+        a enim <em>reprehenderit sapiente molestias</em> nobis necessitatibus sit 
+        autem. <del>Eveniet tenetur obcaecati sapiente nam</del>.
+    </p>
+
+    <h2><ins>More</ins></h2>
+    <h3>Quote :</h3>
+    <blockquote>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Iure repudiandae doloremque natus eaque aliquam vero ratione 
+        consectetur ab magni incidunt?
+    </blockquote>
+
+    <q>Vag Motherchod</q>
+
+    <br> <br>
+
+    <address>Doulotdia Polli Elaka</address>
+
+    <p>
+        12 <sup>th</sup> January, 2012. H<sub>2</sub>O.
+    </p>
+
+    <h2><ins>Things</ins></h2>
+    <ul>
+        <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+        <li><abbr title="Javascript">JS</abbr></li>
+        <li><abbr title="Python">Py</abbr></li>
+    </ul>
+
+    <h2><ins>More Things</ins></h2>
+    <ol>
+        <li>Lewra</li>
+        <li>Vuda</li>
+        <li>Haha</li>
+    </ol>
+
+    <h2><ins>More</ins></h2>
+    <ol type="a">
+        <li>This</li>
+        <li>That</li>
+        <li>There</li>
+    </ol>
+
+    <h2><ins>Contact</ins></h2>
+    <span>Gmail: <a href="mailto:x@gmail.com">x@gmail.com</a></span> <br>
+    <span>Phone: <a href="tel:+8801310480500">01310480500</a></span> <br>
+    <span>Google: <a href="https://www.google.com" target="_blank">www.google.com</a></span> <br>
+    <span>Youtube: <a href="https://www.youtube.com" target="_blank">www.youtube.com</a></span> <br>
+
+
+    <fieldset>
+        <legend><h2 style="color:brown">Registration</h2></legend>
+        <form>
+            <label for="name">Fullname : </label>
+            <span style="color:red">*</span>
+            <input type="text" id="name">
+
+            <br> <br>
+
+            <label for="email">Email : </label>
+            <span style="color:red">*</span>
+            <input type="email" id="email">
+
+            <br> <br>
+
+            <label for="phone">Phone : </label>
+            <span style="color:red">*</span>
+            <input type="number" id="phone">
+
+            <br> <br>
+
+            <label for="pass">Password : </label>
+            <input type="passwword" id="password" required>
+
+            <br> <br>
+
+            <label for="dob">Date of birth : </label>
+            <input type="date" id="dob">
+
+            <br> <br>
+
+            <label for="img">Choose Photo </label>
+            <input type="file" id="img">
+
+            <br> <br>
+
+            <label for="gender">Gender : </label> <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="male">Other</label>
+
+            <br> <br>
+
+            <label for="reli">Religion : </label> <br>
+            <input type="checkbox" id="muslim" name="reli">
+            <label for="muslim">Muslim</label>
+            <input type="checkbox" id="hindu" name="reli">
+            <label for="hindu">Hindu</label>
+            <input type="checkbox" id="buddhist" name="reli">
+            <label for="buddhist">Buddhist</label>
+            <input type="checkbox" id="christian" name="reli">
+            <label for="christian">Christian</label>
+
+            <br> <br>
+
+            <label for="blood">Blood Group : </label>
+            <select name="blood" id="blood">
+                <option value="-select-">-Select-</option>
+                <option value="a+">A+</option>
+                <option value="a-">A-</option>
+                <option value="b+">B+</option>
+                <option value="b-">B-</option>
+                <option value="o+">O+</option>
+                <option value="o-">O-</option>
+                <option value="ab+">AB+</option>
+                <option value="ab-">AB-</option>
+            </select>
+
+            <br> <br>
+
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option value="-select-">-Select-</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="nepal">Nepal</option>
+                <option value="sri lanka">Sri Lanka</option>
+            </select>
+
+            <br> <br>
+
+            <label for="comment">Message : </label> <br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+            <br> <br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </form>
+    </fieldset>
+
+    <br> <br>
+
+    <h1 class="head">DOG</h1>
+
+    <div class="box">
+        <img class="image" src="dog.jpg" alt="dog" width="300px">
+
+        <h2>Lorem ipsum dolor sit.</h2>
+
+        <p>
+            Lorem ipsum dolor <ins style="color:crimson">sit amet consectetur 
+            adipisicing elit. Doloremque voluptates</ins> nemo blanditiis nam 
+            harum vel, dolorum eum fuga nisi, quod suscipit nesciunt omnis ipsa, 
+            exercitationem perspiciatis obcaecati eaque totam odio? 
+            Harum consectetur odit dolore possimus cum temporibus 
+            impedit labore eligendi.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+</body>
+</html>

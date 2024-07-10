@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto Serif", serif;
+}
+img{
+    width: 100%;
+}
+
+
+
+.container{
+    max-width: 600px;
+    background-color: rgb(237, 232, 226);
+    margin: 80px auto;
+    padding: 30px;
+}
+.container h2{
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container img{
+    margin-bottom: 30px;
+}
+.container p{
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(81, 81, 222);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+}
+.container{
+    position: relative;
+}
+.btn-learn::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("https://giffiles.alphacoders.com/854/85460.gif");
+    background-size: cover;
+    right: 50px;
+    bottom: -40px;
+}

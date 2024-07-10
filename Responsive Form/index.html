@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="appointment">
+            <div class="wrapper appointment-wrapper">
+                <div class="appointment-img">
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZG9jdG9yfGVufDB8fDB8fHww" alt="">
+                </div>
+                <div class="appointment-form">
+                    <form action="https://formspree.io/f/xnqeeegl"
+                    method="POST">
+                        <h2>Book An Appointment</h2>
+
+                        <!-- Name -->
+                        <input type="text" name="your_name" placeholder="e.g David Warner">
+
+                        <!-- Email -->
+                        <input type="email" name="your_email" placeholder="e.g test@gmail.com">
+
+                        <!-- Comment -->
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                        
+                        <!-- Gender -->
+                        <div class="gender-group">
+                            <label for="gender" class="gender-label">Gender : </label>
+                            <div class="gender">
+                                <label for="gender">Male</label>
+                                <input type="radio" name="gender" value="male">
+                                <label for="gender">Female</label>
+                                <input type="radio" name="gender" value="female">
+                            </div>
+                        </div>
+
+                        <!-- Religion -->
+                        <div class="religion-group">
+                            <label for="religion" class="religion-label">Religion : </label>
+                            <div class="religion">
+                                <label for="religion">Islam</label>
+                                <input type="checkbox" name="religion" value="islam">
+                                <label for="religion">Hindu</label>
+                                <input type="checkbox" name="religion" value="hindu">
+                                <label for="religion">Buddhist</label>
+                                <input type="checkbox" name="religion" value="buddhist">
+                                <label for="religion">Christian</label>
+                                <input type="checkbox" name="religion" value="christian">
+                            </div>
+                        </div>
+
+                        <!-- Submit -->
+                        <input type="submit" value="Submit" class="btn-submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

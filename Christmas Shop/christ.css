@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    --bg-color: #861315;
+}
+nav ul{
+    list-style: none;
+}
+ul, li{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header Section */
+.container{
+    max-width: 1700px;
+    height: 900px;
+    margin: auto;
+    background-color: var(--bg-color);
+}
+.header-section{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+nav{
+    font-family: "Roboto Condensed", sans-serif;
+}
+nav a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.hero-section{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.head-3{
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    padding-top: 120px;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.head-1{
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+    padding-top: 40px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.head-4{
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.btn-shop{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 25px;
+}

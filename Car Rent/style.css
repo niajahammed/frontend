@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    --big-font: "Big Shoulders Display", sans-serif;
+    --lexend-font: "Lexend Deca", sans-serif;
+
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+body{
+    margin: 3rem 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.sedan-sec{
+    background-color: #e28525;
+    padding: 4rem;
+    border-radius: 10px 10px 0 0;
+}
+.logo{
+    margin-bottom: 3rem;
+}
+.sedan-sec h1{
+    font-size: 3rem;
+    font-family: var(--big-font);
+    font-weight: 700;
+    color: #f9f1f1;
+    margin-bottom: 2rem;
+}
+.sedan-sec p{
+    font-size: 2rem;
+    font-family: var(--lexend-font);
+    color: #f9f1f1;
+    margin-bottom: 8rem;
+}
+.btn-orange{
+    font-size: 2.5rem;
+    font-family: var(--lexend-font);
+    border: 1px solid white;
+    background-color: white;
+    color: #e28525;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.suv-sec{
+    background-color: #016972;
+    padding: 4rem;
+}
+.suv-sec h1{
+    font-size: 3rem;
+    font-family: var(--big-font);
+    font-weight: 700;
+    color: #f9f1f1;
+    margin-bottom: 2rem;
+}
+.suv-sec p{
+    font-size: 2rem;
+    font-family: var(--lexend-font);
+    color: #f9f1f1;
+    margin-bottom: 8rem;
+}
+.btn-green{
+    font-size: 2.5rem;
+    font-family: var(--lexend-font);
+    border: 1px solid white;
+    background-color: white;
+    color: #016972;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.luxury-sec{
+    background-color: #00403f;
+    padding: 4rem;
+    border-radius: 0 0 10px 10px;
+}
+.luxury-sec h1{
+    font-size: 3rem;
+    font-family: var(--big-font);
+    font-weight: 700;
+    color: #f9f1f1;
+    margin-bottom: 2rem;
+}
+.luxury-sec p{
+    font-size: 2rem;
+    font-family: var(--lexend-font);
+    color: #f9f1f1;
+    margin-bottom: 8rem;
+}
+.btn-dark{
+    font-size: 2.5rem;
+    font-family: var(--lexend-font);
+    border: 1px solid white;
+    background-color: white;
+    color: #00403f;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+
+@media(min-width:550px){
+    .car-detail{
+        display: flex;
+    }
+    .sedan-sec{
+        border-radius: 10px  0 0 10px;
+    }
+    .luxury-sec{
+        border-radius: 0 10px 10px 0;
+    }
+}

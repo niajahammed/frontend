@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.header-section{
+    max-width: 1600px;
+    height: 895px;
+    margin:auto;
+    padding: 30px 0; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://websitedemos.net/hope-02/wp-content/uploads/sites/1410/2023/10/1-home.jpg");
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+nav{
+    display: flex;
+    gap: 25px;
+}
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 5px 22px; 
+    border-radius: 8px;
+}
+
+.middle-section{
+    margin-top: 300px;
+    text-align: center;
+    padding: 40px 0;
+}
+.middle-section h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.middle-section a, .btn-1{
+    text-decoration: none;
+    background-color: rgb(13, 87, 13);
+    color: white;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.hero-section{
+    max-width: 1600px;
+    margin: auto;
+    padding: 40px 0;
+}
+.head-para{
+    text-align: center;
+}
+.hero-section p{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.hero-section h3{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.image{
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+    margin-left: 235px;
+}
+.image img{
+    border-radius: 10px;
+}
+
+.middle{
+    max-width: 1600px;
+    margin:auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color:#e8f2ed;
+}
+.ruth img{
+    border-radius: 80px;
+    margin-bottom: 30px;
+}
+.ruth p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.para{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.ruth a, .btn-2, .button{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    padding: 11px 28px;
+    border-radius: 10px;
+}
+
+.middle-2{
+    max-width: 1600px;
+    margin: auto;
+}
+.review{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 0;
+}
+.left-side img{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.left-side h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.left-side p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.right-side p{
+    margin-bottom: 40px;
+}
+.right-side h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.paragraph{
+    font-size: 25px;
+}
+
+.middle-3{
+    max-width: 1600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://websitedemos.net/hope-02/wp-content/uploads/sites/1410/2023/10/7-home.jpg");
+    background-size: cover;
+}
+.insert h2{
+    padding-top: 110px;
+    color: white;
+    font-size: 60px;
+}
+.insert p{
+    margin-top: 30px;
+    color: white;
+    font-size: 23px;
+    padding-bottom: 30px;
+}
+.button{
+    color: white;
+    border: 2px solid white;
+}
+
+.footer-section{
+    margin: auto;
+    padding: 50px 0;
+    max-width: 1600px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    color: black;
+}
+.par{
+    font-size: 20px;
+}

@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite DE Grund", cursive;
+}
+img{
+    width: 100%;
+}
+html{
+    --primary-color: #385F96;
+    --exp-color: #FFFFFF;
+    --para-color: #4E4E4E;
+
+}
+
+
+/* Header Section Starts */
+.wrapper{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 40px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+ul, li{
+    list-style: none;
+}
+.navigation ul{
+    display: flex;
+    gap: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.1px;
+    color: var(--primary-color);
+}
+.explore a, .btn-learn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--exp-color);
+    background-color: var(--primary-color);
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+.logo h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 65.04px;
+    color: var(--primary-color);
+}
+/* Header Section Ends */
+
+
+/* Hero-1 Section Starts */
+.hero-1-section{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 170px;
+    margin-bottom: 180px;
+}
+.hero-1-left{
+    flex-basis: 100%;
+    position: relative;
+}
+.hero-1-right{
+    flex-basis: 100%;
+}
+.heading-1::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url("image/image\ 4.png");
+    background-size: cover;
+    top: -80px;
+    left: -60px;
+    z-index: -1;
+}
+.heading-1{
+    font-size: 48px;
+    font-weight: 1200;
+    line-height: 65.04px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+.hero-1-left p{
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 24px;
+    color: var(--para-color);
+    margin-bottom: 30px;
+}
+.hero-1-right img{
+    border-radius: 10px;
+}
+/* Hero-1 Section Ends */
+
+
+/* Hero-2 Section Starts */
+.hero-2-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    margin-bottom: 150px;
+}
+.hero-2-left{
+    flex-basis: 100%;
+}
+.hero-2-right{
+    flex-basis: 100%;
+    position: relative;
+}
+.head-1::before{
+    content: "";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    background-color: #44D1D9C7;
+    top: -20px;
+}
+.head-1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.78px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+.hero-2-right p{
+    font-size: 17.5px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--para-color);
+    margin-bottom: 30px;
+}
+.hero-2-left img{
+    border-radius: 10px;
+}
+/* Hero-2 Section Ends */
+
+
+
+/* Footer Section Starts */
+.footer-section{
+    background-image: url("image/background.jpg");
+    height: 614px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 170px;
+}
+.footer-left{
+    flex-basis: 100%;
+}
+.footer-right{
+    flex-basis: 100%;
+}
+.footer-left h1{
+    font-size: 42px;
+    font-weight: 1200;
+    line-height: 48.78px;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+.footer-right img{
+    border-radius: 10px;
+}
+.footer-down{
+    background-color: var(--primary-color);
+    height: 70px;
+}
+.footer-down h3{
+    text-align: center;
+    color: var(--exp-color);
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 80px;
+}
+/* Footer Section Ends */

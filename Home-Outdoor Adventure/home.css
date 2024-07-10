@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header-section{
+    padding: 20px 0;
+    max-width: 1700px;
+    height: 750px;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg");
+    
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.navi a{
+    color: black;
+    font-size: 20px;
+}
+.anchor, .btn, .btn-group{
+    background-color: rgb(235, 110, 160);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.navigation-section a{
+    text-decoration: none;
+}
+.logo h1{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+}
+.logo p{
+    display: inline-block;
+    color: white;
+    font-size: 33px;
+}
+
+.middle-section{
+    text-align: center;
+    padding: 200px 0;
+}
+.middle-section h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.middle-section h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 90px;
+}
+
+.para-section{
+    text-align: center;
+    margin-top: 40px;
+}
+.para-section q{
+    font-size: 22px;
+}
+.para-section p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.up-section{
+    padding: 40px 0;
+}
+.up-section h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.upcoming{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.up-left h3, .up-right h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+.up-left p, .up-right p{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.up-left img, .up-right img{
+    border-radius: 10px;
+    background-image: (rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
+}
+.upcoming a{
+    margin-left: 150px;
+}

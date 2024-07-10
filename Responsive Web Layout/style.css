@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://websitedemos.net/fashion-photography-04/wp-content/uploads/sites/1169/2023/02/hero3.png");
+    background-size: cover;
+    margin: auto;
+}

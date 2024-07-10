@@ -1,0 +1,29 @@
+.head{
+    text-align:center;
+    color:blue;
+    font-size:40px;
+}
+.box{
+    background-color: rgb(162, 199, 231);
+    width: 600px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+.box h2{
+    color:blueviolet;
+}
+.box p{
+    font-size:18px;
+}
+.box button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,142 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+html{
+    --h2-color: #21243D;
+    --nav-color: #000000;
+    --hire-color: #383838;
+    --para-color: #777777;
+    --btn-color: #878CFF;
+}
+
+/* Header Section */
+.container{
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 116px;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+.logo h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(--h2-color);
+}
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    color: var(--nav-color);
+}
+.btn-hire{
+    background-color: var(--hire-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+/* Header Section */
+.hero-section{
+    text-align: center;
+}
+.img1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 116px;
+}
+.img1 h1, .heading-2, .heading-1{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(--h2-color);
+}
+.img1 p, .paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--para-color); 
+    margin-bottom: 40px;
+}
+.img1 a, .btn-learn{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: var(--btn-color);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+/* Hero-2 Section */
+.wrapper{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #878CFF1C;
+    margin-bottom: 88px;
+}
+.hero-2{
+    display: flex;
+    justify-content: space-around;
+    gap: 114px;
+}
+.hero-left{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 180px;
+}
+.hero-left img{
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 17px 40px 0px #00000033;
+}
+.hero-right{
+    padding: 120px 100px;
+}
+
+/* Work Section */
+.work{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.work-section{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.work-1 img{
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.work-1 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--h2-color);
+    margin-bottom: 30px;
+}
+.work-1 a{
+    color: var(--btn-color);
+}
