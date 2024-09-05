@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: auto;
+    background-color: rgb(231, 248, 131);
+    border-radius: 10px 10px 0 0;
+}
+.header-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: black;
+}
+.btn{
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1.2rem 2.5rem;
+    background-color: white;  
+    border-radius: 45px;
+    color: black;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease 0s;
+    outline: none;
+}
+.btn:hover{
+    background-color: #ec5b53;
+    color: white;
+    box-shadow: 0px 15px 25px #ec5b53;
+    transform: translateY(-5px);
+}
+
+
+.container{
+    max-width: 1440px;
+    padding: 9rem 0;
+    background-color:aliceblue;
+    margin: auto;
+}
+.hero-sec{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+.hero-left h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color:#f8251a;
+    margin-bottom: 3rem;
+}
+.hero-left p{
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(100, 98, 98);
+    margin-bottom: 5rem;
+}
+.hero-right img{
+    border-radius: 1rem;
+}
+
+
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.hero-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 9rem 0;
+}
+.h-2-left img{
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.h-2-right h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color:#f8251a;
+    margin-bottom: 3rem;
+}
+.h-2-right p{
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(100, 98, 98);
+    margin-bottom: 5rem;
+}
+
+
+.gather{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:cornsilk;
+    border-radius: 0 0 10px 10px;
+}
+.hero-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 9rem 0;
+}
+.h-3-left h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color:#f8251a;
+    margin-bottom: 3rem;
+}
+.h-3-right img{
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+}
+.h-3-left p{
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(100, 98, 98);
+    margin-bottom: 5rem;
+}
+
+
+.around{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:rgb(127, 248, 248);
+    padding: 3rem 0;
+    margin-bottom: 5rem;
+    border-radius: 0 0 10px 10px;
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-con{
+    font-size: 2.2rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 18rem;
+    height: 5rem;
+    background-image: linear-gradient(135deg, black, blue);
+    border-radius: 45px;
+    color: white;
+    padding: 4px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 2;
+    margin-right: 2rem;
+}
+.btn-con:hover{
+    color: white;
+    transform: translateY(-5px);
+}
+.btn-con:active{
+    transform: translateY(-1px);
+}
+.btn-con .con-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f8251a;
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+    transition: background 0.5s ease; 
+}
+.btn-con:hover .con-s{
+    background: transparent;
+}
+.logo-foot{
+    margin-left: 2rem;
+}

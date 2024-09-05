@@ -1,0 +1,177 @@
+/* Sign Up Starts */
+.button{
+    max-width: 120px;
+
+    position: relative;
+    cursor: pointer;
+
+    padding: 12px 17px;
+    border: 0;
+    border-radius: 7px;
+
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    background: radial-gradient(
+        ellipse at bottom,
+        rgba(71, 81, 92, 1) 0%,
+        rgba(11, 21, 30, 1) 45%
+    );
+
+    color: rgb(255, 255, 255, 0.66);
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.button::before{
+    content: "";
+    width: 70%;
+    height: 1px;
+
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    opacity: 0.2;
+
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.button:hover{
+    color: rgb(255, 255, 255, 1);
+    transform: scale(1.1) translateY(-3px);
+}
+
+.button:hover::before{
+    opacity: 1;
+}
+/* Sign Up Ends */
+
+
+/* Subscribe Starts */
+.sub{
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(243, 18, 179);
+    border: 2px solid palevioletred;
+    border-radius: 34px;
+    background-color: transparent;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+.sub::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: palevioletred;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.sub:hover::before{
+    scale: 3;
+}
+.sub:hover{
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+.sub:active{
+    scale: 1;
+}
+/* Subscribe Ends */
+
+/* Register Starts */
+.reg{
+    background-image: linear-gradient(135deg, #8b0ced, #f74f07);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+}
+.reg:hover{
+    color: #fff;
+}
+.reg .reg-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    transition: background 0.5s ease;
+}
+.reg:hover .reg-span{
+    background: transparent;
+}
+/* Register Ends */
+
+/* Uiverse Starts */
+.uni{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0, 145, 255);
+    box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+.uni:hover{
+    box-shadow: 0 0 5px rgb(0, 140, 255),
+                0 0 25px rgb(0, 140, 255),
+                0 0 50px rgb(0, 140, 255),
+                0 0 100px rgb(0, 140, 255);
+}
+/* Uiverse Ends */
+
+/* Hire Starts */
+.hire{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding: 1.1em 3em;
+    border: none;
+    border-radius: 45px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.hire:hover{
+    background-color: palevioletred;
+    box-shadow: 0px 15px 20px palevioletred;
+    color: #fff;
+    transform: translateY(-5px);
+}
+.hire:active{
+    transform: translateY(-1px);
+}
+/* Hire Ends */

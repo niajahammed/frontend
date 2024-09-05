@@ -1,0 +1,86 @@
+.sign{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: none;
+    padding: 14px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease 0s;
+    outline: none;
+}
+.sign:hover{
+    background-color:rgb(56, 5, 121);
+    color: white;
+    box-shadow: 0px 10px 20px rgb(44, 3, 111);
+    transform: translateY(-6px);
+}
+.sign:active{
+    transform: translateY(-2px);
+}
+
+
+.btn{
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(44, 3, 111);
+    transition: 0.5s;
+    transition-property: box-shadow;
+    color: white;
+    box-shadow: 0px 0px 15px rgb(44, 3, 111);
+}
+.btn:hover{
+    box-shadow:
+        0px 0px 5px rgb(44, 3, 111),
+        0px 0px 20px rgb(44, 3, 111),
+        0px 0px 30px rgb(44, 3, 111),
+        0px 0px 40px rgb(44, 3, 111);
+}
+
+
+.tas{
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 28px;
+    border: 2px solid rgb(1, 93, 30);
+    border-radius: 35px;
+    position: relative;
+    background-color: transparent;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+.tas::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    /* width: 50px; */
+    height: 50px;
+    inset: 0;
+    border-radius: 35px;
+    scale: 0;
+    z-index: -1;
+    background-color:rgb(44, 3, 111);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.tas:hover::before{
+    scale: 3;
+}
+.tas:hover{
+    color:white;
+    scale: 1.1;
+    box-shadow: 0px 0px 20px rgb(44, 3, 111);
+}

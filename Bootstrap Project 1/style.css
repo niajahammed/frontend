@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --back-color: #14151c;
+    --nav-color: #e0f014;
+    --text-color: #ffffff;
+    --para-color: #c1c4d1;
+    --border-color: #272933;
+}
+
+body{
+    font-family: "Instrument Sans", sans-serif;
+    background-color: var(--back-color);
+}
+
+
+/* header section starts */
+
+.top-bar p{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--back-color);
+}
+
+.top-bar{
+    background-color: var(--nav-color);
+    transition: background-color .5s ease;
+    cursor: pointer;
+}
+
+.top-bar:hover{
+    background-color: var(--text-color);
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-link{
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--text-color);
+}
+
+.nav-link:hover{
+    color: var(--nav-color);
+}
+
+.navbar{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 55px;
+    height: 45px;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: var(--nav-color);
+    border-radius: 4px;
+  }
+
+/* header section ends */
+
+/* button starts */
+
+.btn{
+    border: 1px solid var(--para-color);
+    border-radius: 0;
+    background-color: var(--back-color);
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 24px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: var(--text-color);
+    color: var(--back-color);
+}
+
+.btn-book{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: var(--nav-color);
+    color: var(--back-color);
+    transition: background-color .5s ease;
+}
+
+.btn-book:hover{
+    background-color: var(--text-color);
+}
+
+/* button ends */
+
+
+/* hero section starts */
+
+.hero-content{
+    max-width: 800px;
+    padding-top: 40px;
+}
+
+.upper-text{
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    display: inline-block;
+}
+
+.hero-content p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 600px;
+    color: var(--para-color);
+    margin: 24px auto;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* hero section ends */
