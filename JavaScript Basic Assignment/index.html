@@ -56,6 +56,56 @@
         console.log(country_name, nationality_name);
 
 
+        // String Question - 1
+        let msg = "Hello, welcome to JavaScript";
+        let searchHello = "hello";
+
+        let msgLower = msg.toLowerCase();
+        let searchLower = searchHello.toLowerCase();
+
+        let output = searchHello.search("hello");
+        console.log(output);
+
+        let searchValue = msgLower.search(searchHello);
+        
+        if (searchValue !== -1) {
+            console.log(searchHello, "is found");
+        } else {
+            console.log(searchHello, "is not found");
+        }
+
+        // String Question - 2
+        let userName = prompt("Enter name : ");
+        let trim = userName.trim();
+        
+        let greeting = "Hello, " + trim.concat(", how are you?");
+        console.log(greeting);
+
+        // String Question - 3
+        let progName = "Ahmed";
+        let progLan = "Java";
+        let year = 2016;
+
+        let outcome = `${progName}, have been coding in ${progLan} since ${year}`;
+        console.log(outcome);
+
+        // String Question - 5
+        let num3 = prompt("Enter a number : ");
+        if (num3 % 10 == 0) {
+            console.log(num3, "is divisible by 10");
+        } else {
+            console.log(num3, "is not divisible by 10");
+        }
+
+        // String Question - 6
+        let number = prompt("Enter a number : ");
+
+        if (number % 2 == 0) {
+            console.log(number, "is even");
+        } else {
+            console.log(number, "is odd");
+        }
+
 
     </script>
 </body>
